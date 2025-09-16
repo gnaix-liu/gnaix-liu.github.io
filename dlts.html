@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>统一身份认证登录提示</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>统一身份认证登录提示</h1>
+        <p>厚德达理、励志勤工</p>
+    </header>
+
+    <main>
+        <section class="card-section">
+            <div style="font-size: 1rem;color: #000000;">
+            <p style="font-weight:bold;">1.初始账号</p>
+            <p>&nbsp&nbsp&nbsp&nbsp&nbsp a.学生：学号</p>
+            <p>&nbsp&nbsp&nbsp&nbsp&nbsp b.教职工：工号</p>
+            <p>&nbsp&nbsp&nbsp&nbsp&nbsp c.初始密码：Suse@身份证件号后六位</p>
+            <p style="font-weight:bold;">2.首次登录</p>
+            <p>&nbsp&nbsp&nbsp&nbsp&nbsp a.为保证账号安全，数据一溯一源，系统已预先绑定手机号，身份平台手机号分别同步于轻风化雨652平台（学生）和人事系统（教职工）。如果遇到手机号不属于自己或者手机号为空，学生可联系自己辅导员在轻风化雨652平台更改，教职工可联系人事处管理员更改；</p>
+            <p>&nbsp&nbsp&nbsp&nbsp&nbsp b.密码要求：密码字符需要包含（小写字母、大写字母、数字和特殊字符）中的至少两种且密码长度必须为6-50位且密码强度达到中及以上。</p>
+            <p style="font-weight:bold;">3.单点说明</p>
+            <p>&nbsp&nbsp&nbsp&nbsp&nbsp a.如果进入的界面是融合门户，可在融合门户首页的【推荐应用】模块进行单点跳转；</p>
+            <p>&nbsp&nbsp&nbsp&nbsp&nbsp b.如果进入的是具体系统，经统一身份认证登录后可直接第三方系统。</p>
+            <p>&nbsp&nbsp&nbsp&nbsp&nbsp</p>
+            <p>&nbsp&nbsp&nbsp&nbsp&nbsp</p>
+            </div>
+            <p class="section-description">以下是已接入统一身份认证的系统平台，可使用统一身份认证的账号密码登录</p>
+            <div class="card-container">
+                <a href="https://yjsglxt.suse.edu.cn/api/cas/login?pattern=manager-login" class="card" target="_blank">
+                    <div class="card-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>研究生系统</h3>
+                        <p>研究生管理平台</p>
+                    </div>
+                </a>
+                <a href="https://kygl.suse.edu.cn/api/blade-auth/oauth/cas/callback3" class="card" target="_blank">
+                    <div class="card-icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>科研系统</h3>
+                        <p>科研管理平台</p>
+                    </div>
+                </a>
+                <a href="https://ehr.suse.edu.cn/epxing-frame/api/v1/callBack/hall" class="card" target="_blank">
+                    <div class="card-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>人事系统</h3>
+                        <p>人事管理平台</p>
+                    </div>
+                </a>
+                <a href="https://ai.suse.edu.cn/" class="card" target="_blank">
+                    <div class="card-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>轻风智语</h3>
+                        <p>AI智能助手</p>
+                    </div>
+                </a>
+                <a href="https://jxzy.suse.edu.cn/unifiedlogin/v1/cas/login" class="card" target="_blank">
+                    <div class="card-icon">
+                        <i class="fas fa-book-reader"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>教学资源平台</h3>
+                        <p>教学资源管理</p>
+                    </div>
+                </a>
+                <a href="https://suse.smartclass.cn/SystemSpace/Redirect.aspx" class="card" target="_blank">
+                    <div class="card-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>直录播管理系统</h3>
+                        <p>课程录制管理</p>
+                    </div>
+                </a>
+                <a href="https://jwgl.suse.edu.cn/sso/ddlogin" class="card" target="_blank">
+                    <div class="card-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>教务系统</h3>
+                        <p>教学管理平台</p>
+                    </div>
+                </a>
+                <a href="	https://uias.suse.edu.cn/sso/login?service=https://suse.bohrium.com/?type=17&method=oauth-code" class="card" target="_blank">
+                    <div class="card-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>玻尔科研空间站</h3>
+                        <p>玻尔科研空间站</p>
+                    </div>
+                </a>
+                <a href="https://cwbx.suse.edu.cn/casLogin?ym=ZnBxIndex" class="card" target="_blank">
+                    <div class="card-icon">
+                        <i class="fas fa-money-bill-wave"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>财务系统</h3>
+                        <p>财务管理平台</p>
+                    </div>
+                </a>
+                <a href="https://ds.carsi.edu.cn/Shibboleth.sso/Login?entityID=https://idp.suse.edu.cn/idp/shibboleth&target=https%3A%2F%2Fds.carsi.edu.cn%2Fwxds" class="card" target="_blank">
+                    <div class="card-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>CARSI资源共享</h3>
+                        <p>CARSI资源共享</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 四川轻化工大学. All rights reserved.</p>
+    </footer>
+</body>
+</html> 

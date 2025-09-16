@@ -126,7 +126,16 @@
     </main>
 
     <footer>
-        <p>© 2025 四川轻化工大学. All rights reserved.</p>
+        <p>© 2025 四川轻化工大学. All rights reserved. 访问次数：<span id="visitCount"></span></p>
     </footer>
 </body>
 </html> 
+<script>
+  function updateVisitCount() {
+    let visits = localStorage.getItem('pageVisits');
+    visits = visits ? parseInt(visits, 10) + 1 : 1;
+    localStorage.setItem('pageVisits', visits);
+    document.getElementById('visitCount').innerText = visits;
+  }
+  window.onload = updateVisitCount;
+</script>
